@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">In And Out</string>
+    <string name="cheese">Bánh mì phô mát $2.15</string>
+    <string name="double_double">Nhân đôi thịt $3.60</string>
+    <string name="fountain_drink">Nước ngọt (chọn kích cỡ)</string>
+    <string name="french_fries">Khoai tây chiên $1.65</string>
+    <string name="items_ordered">Món đã gọi:</string>
+    <string name="large_drink">Lớn $1.75</string>
+    <string name="medium_drink">Vừa $1.55</string>
+    <string name="order_total">Tổng cộng:</string>
+    <string name="place_an_order_txt">Gọi món</string>
+    <string name="place_order_btn">THANH TOÁN</string>
+    <string name="shakes">Sinh tố $2.20</string>
+    <string name="small_drink">Nhỏ $1.45</string>
+    <string name="start_new_order_btn">GỌI MÓN MỚI</string>
+    <string name="subtotal">Giá tiền:</string>
+    <string name="tax">Thuế (8%):</string>
+</resources>

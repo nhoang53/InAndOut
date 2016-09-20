@@ -57,6 +57,7 @@
         android:layout_height="wrap_content"
         android:text="@string/start_new_order_btn"
         android:id="@+id/startNewOrderButton"
+        android:onClick="returnToDataEntry"
         android:layout_centerVertical="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
@@ -66,7 +67,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="0"
-        android:id="@+id/itemOderedTextView"
+        android:id="@+id/numberItemsOrderedTextVie"
         android:layout_above="@+id/textView12"
         android:layout_toRightOf="@+id/startNewOrderButton"
         android:layout_toEndOf="@+id/startNewOrderButton" />
@@ -78,8 +79,8 @@
         android:text="0"
         android:id="@+id/orderTotalTextView"
         android:layout_above="@+id/textView11"
-        android:layout_alignLeft="@+id/itemOderedTextView"
-        android:layout_alignStart="@+id/itemOderedTextView" />
+        android:layout_alignLeft="@+id/numberItemsOrderedTextVie"
+        android:layout_alignStart="@+id/numberItemsOrderedTextVie" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -88,8 +89,8 @@
         android:text="0"
         android:id="@+id/subtotalTextView"
         android:layout_above="@+id/textView13"
-        android:layout_alignLeft="@+id/itemOderedTextView"
-        android:layout_alignStart="@+id/itemOderedTextView" />
+        android:layout_alignLeft="@+id/numberItemsOrderedTextVie"
+        android:layout_alignStart="@+id/numberItemsOrderedTextVie" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -98,6 +99,6 @@
         android:text="0"
         android:id="@+id/taxTextView"
         android:layout_alignBottom="@+id/textView13"
-        android:layout_alignLeft="@+id/itemOderedTextView"
-        android:layout_alignStart="@+id/itemOderedTextView" />
+        android:layout_alignLeft="@+id/numberItemsOrderedTextVie"
+        android:layout_alignStart="@+id/numberItemsOrderedTextVie" />
 </RelativeLayout>
