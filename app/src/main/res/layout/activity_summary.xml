@@ -65,9 +65,39 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Medium Text"
-        android:id="@+id/textView14"
+        android:text="0"
+        android:id="@+id/itemOderedTextView"
         android:layout_above="@+id/textView12"
         android:layout_toRightOf="@+id/startNewOrderButton"
         android:layout_toEndOf="@+id/startNewOrderButton" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="0"
+        android:id="@+id/orderTotalTextView"
+        android:layout_above="@+id/textView11"
+        android:layout_alignLeft="@+id/itemOderedTextView"
+        android:layout_alignStart="@+id/itemOderedTextView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="0"
+        android:id="@+id/subtotalTextView"
+        android:layout_above="@+id/textView13"
+        android:layout_alignLeft="@+id/itemOderedTextView"
+        android:layout_alignStart="@+id/itemOderedTextView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="0"
+        android:id="@+id/taxTextView"
+        android:layout_alignBottom="@+id/textView13"
+        android:layout_alignLeft="@+id/itemOderedTextView"
+        android:layout_alignStart="@+id/itemOderedTextView" />
 </RelativeLayout>
